@@ -18,3 +18,11 @@ npx cypress run
 2. Clicking on a service card will open a modal
 3. Input area to search for similar data in the service cards
 4. Basic unit test/cypress test
+
+NOTE:
+I wrote a basic test for 'Loading the element and checking if a particular element is present'. If it was a production app, could have had several tests. For example: 
+--> Make HTTP requests through Cypress to confirm that the server does the right thing for edge cases not accessible through UI;
+--> Test the vuex store for appropriate keys before proceeding the test the DOM
+--> Test multiple events 
+--> Test Auth0 authentication
+--> Test components/mixins/filter
