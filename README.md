@@ -1,9 +1,7 @@
 # KongInc_TakeHomeTask
 
 ### Get started by running
-
 npm install
-npm run serve  
 
 ### Start Dev Server in Separate Terminal
 npm run serve  
