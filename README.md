@@ -2,9 +2,10 @@
 
 ### Get started by running
 npm install
+npm run serve
 
 ### Start Dev Server in Separate Terminal
-npm run serve  
+npm run server  
 
 ### Run your unit tests
 npm run test:unit
