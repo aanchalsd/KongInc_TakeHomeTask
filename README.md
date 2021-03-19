@@ -12,7 +12,7 @@ npm run test:unit
 
 
 ### Run your end-to-end tests
-npm cypress run
+npx cypress run
 
 1. On page reload, all the services will be displayed in card design with pagination (done on client-side)
 2. Clicking on a service card will open a modal
